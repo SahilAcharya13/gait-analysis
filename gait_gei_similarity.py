@@ -63,7 +63,7 @@ plt.title("Subject 2 GEI")
 
 plt.show()
 
-# Compute similarity and save result
+# Compute similarity
 similarity = cosine_similarity([gei_vector], [gei2])[0][0]
 
 print(f"✅ Similarity Score: {similarity:.4f}")
